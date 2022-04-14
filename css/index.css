@@ -293,7 +293,7 @@ header {
     color: #FFF7E4;
     font-family: arial;
     font-size: 20px;
-    padding:
+    padding: 10px;
 }
 .missionChild {
  height: 400px;
@@ -331,14 +331,43 @@ header {
     background-color: #FFF7E4;
 }
 .eventChild {
-    height: 400px;
+    height: 500px;
     margin: 10px;
+    margin-bottom: 100px;;
     padding: 10px;
+    border-radius: 10px;
    }
 .card {
     width: 40%;
     border: 1px solid black;
 }
 .card-img-top {
-    width: 100%;
+    width: 50%;
+    padding-left:70px;
+}
+.card-title {
+  background-color: #FFCF95;
+  font-size: large;
+  padding:5px;
+}
+.card-toptitle {
+  background-color: #FFCF95;
+  font-size: small;
+  color:#C8401C;
+  padding:5px;
+}
+.card-text {
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.btn {
+  border: 1px solid #C8401C;
+  border-radius: 4px;
+  background-color: #FFCF95;
+  color:#C8401C;
+  padding:5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin:10px;
 }
